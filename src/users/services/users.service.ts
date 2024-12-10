@@ -36,6 +36,7 @@ export class UsersService {
         email,
         passwordHash,
         balance: 0.0,
+        totalInvestment: 0.0,
         createdAt: new Date(),
         updatedAt: new Date()
       });
